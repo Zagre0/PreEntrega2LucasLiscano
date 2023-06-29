@@ -4,6 +4,27 @@
   box-sizing: border-box;
 }
 
+/*Comunes*/
+.text_center {
+  text-align: center;
+}
+
+/*Nav*/
+.NavBar {
+  background-color: rgb(72, 56, 254);
+}
+
+.NavBar_item {
+  display: inline-block;
+  padding: 10px;
+}
+
+.barra a {
+  color: rgb(242, 255, 0);
+  text-decoration: none;
+}
+
+/*general*/
 body {
   background-color: black;
 }/*# sourceMappingURL=style.css.map */
