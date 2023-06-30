@@ -9,6 +9,16 @@
   text-align: center;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yllw {
+  color: yellow;
+}
+
 /*Nav*/
 .NavBar {
   background-color: rgb(72, 56, 254);
@@ -26,5 +36,38 @@
 
 /*general*/
 body {
-  background-color: black;
+  background-color: rgba(47, 49, 0, 0.534);
+}
+
+/*main*/
+.Titulo {
+  color: white;
+}
+
+.div-img {
+  display: flex;
+  justify-content: center;
+}
+
+.main_contain {
+  min-height: 70vh;
+}
+
+.main_text {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.gremio_img {
+  width: auto;
+  height: 400px;
+}
+
+/*footer*/
+.footer {
+  background-color: rgb(72, 56, 254);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 7px;
 }/*# sourceMappingURL=style.css.map */
