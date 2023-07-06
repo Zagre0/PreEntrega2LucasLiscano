@@ -19,27 +19,19 @@
   color: yellow;
 }
 
-/*Nav*/
-.NavBar {
-  background-color: rgb(72, 56, 254);
-}
-
-.NavBar_item {
-  display: inline-block;
-  padding: 10px;
-}
-
-.barra a {
-  color: rgb(242, 255, 0);
-  text-decoration: none;
-}
-
 /*general*/
 body {
-  background-color: rgba(47, 49, 0, 0.534);
+  background-color: rgb(242, 172, 41);
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 14px;
 }
 
 /*main*/
+main {
+  padding-bottom: 10vh;
+}
+
 .Titulo {
   color: white;
 }
@@ -50,7 +42,7 @@ body {
 }
 
 .main_contain {
-  min-height: 70vh;
+  min-height: 80vh;
 }
 
 .main_text {
@@ -60,14 +52,18 @@ body {
 
 .gremio_img {
   width: auto;
-  height: 400px;
+  height: 300px;
+}
+
+.centerimage {
+  text-align: center;
+  display: block;
 }
 
 /*footer*/
 .footer {
-  background-color: rgb(72, 56, 254);
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
-  padding: 7px;
+  height: 100px;
 }/*# sourceMappingURL=style.css.map */
