@@ -37,7 +37,7 @@ main {
 }
 
 .Titulo {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .div-img {
@@ -54,23 +54,30 @@ main {
   vertical-align: top;
 }
 
-.gremio_img {
-  width: auto;
-  height: 150px;
-  display: flex;
+.grid-cont {
+  display: grid;
   justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
-.centerimage {
-  text-align: center;
-  display: block;
+.gremio_img {
+  width: 700px;
+  height: 400px;
+}
+
+.gremio_img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /*pagina de investigaciones*/
 /*main*/
 main .inv {
   width: 100%;
-  height: 350px;
+  height: 450px;
   background-image: url(./image/descarga.jfif);
   background-size: cover;
   background-position: center;
@@ -116,7 +123,6 @@ h3 {
 
 h2 .inves {
   text-align: center;
-  background-color: rgb(255, 193, 7);
   padding: 20px;
 }
 
@@ -145,17 +151,18 @@ h2 .inves {
 }
 
 @media only screen and (min-width: 320px) {
-  .gremio_img {
-    height: 150px;
-    width: 50px;
-  }
   .investigaciones {
     display: grid;
   }
 }
 @media only screen and (max-width: 600px) {
+  .grid-cont {
+    height: 23vh;
+    margin-bottom: 20px;
+  }
   .gremio_img {
-    height: 250px;
+    width: 300px;
+    height: 170px;
   }
   .item {
     grid-template-columns: repeat(2, 1fr);
